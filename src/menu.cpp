@@ -12,6 +12,8 @@ int main (int argc, char **argv){
       std::cin>>msg.data;
       command_pub.publish(msg);
       ros::spinOnce();
+      if (msg.data=="q")
+			ros::shutdown();
    }
    return 0;
 }
