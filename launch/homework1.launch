@@ -1,0 +1,5 @@
+<launch>
+    <node name="msg_scelto" pkg="homework1" type="msg_scelto" output="screen" launch-prefix="xterm -e"  />
+	 <node name="messaggio" pkg="homework1" type="messaggio" output="screen" launch-prefix="xterm -e"  />
+    <node name="menu" pkg="homework1" type="menu" output="screen" launch-prefix="xterm -e"  />
+</launch>
