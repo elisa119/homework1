@@ -13,8 +13,8 @@ Sono stati creati tre file .cpp per svolgere i vari compiti:<br>
 -msg_scelto.cpp visualizza il messaggio selezionato.<br>
 I nodi comunicano con messaggi standard String.<br>
 
-Inoltre, è stato creato un file .launch (homework1.launch) per eseguire il programma.Quindi scrivere su terminale:<br>
-$roslaunch homework1 homework1.launch
+Inoltre, è stato creato un file .launch (homework1.launch) per eseguire il programma. Quindi scrivere su terminale:<br>
+$ roslaunch homework1 homework1.launch
 
 -Su un terminale viene pubblicato 1 volta al secondo un messaggio contenente un nome, una età, e un corso di laurea (es: nome= mario rossi; eta'= 25; corso= informatica;).<br>
 -Su un altro terminale viene visualizzato un piccolo menu dove l'utente deve selezionare da tastiera una delle opzioni per decidere quale parte del messaggio vedere. <br>
